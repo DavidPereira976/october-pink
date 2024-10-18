@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 118px;
+  padding: 0px 50px 0px 50px;
+  color: #fff;
+
+  button {
+    display: none;
+
+    @media (max-width: 884px) {
+      display: flex;
+      justify-content: center;
+      border-style: none;
+      font-size: 52px;
+      background-color: #ff69b4;
+      color: #fff;
+    }
+  }
+  @media (max-width: 884px) {
+    padding: 20px;
+  }
+
+  .section-logo {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 884px) {
+      font-size: 12px;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 22px;
+    font-weight: 100;
+    @media (max-width: 884px) {
+      display: none;
+    }
+  }
+}
+
+main {
+  .first-section-main {
+    background-color: #ffd9ec;
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    @media (max-width: 884px) {
+      padding: 20px;
+      gap: 40px;
+    }
+
+    p {
+      width: 500px;
+      font-size: 22px;
+    }
+  }
+
+  .second-section-main {
+    background-color: #ff69b4;
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 884px) {
+      padding: 20px;
+      gap: 40px;
+    }
+
+    p {
+      width: 500px;
+      font-size: 22px;
+    }
+  }
+
+  .third-section-main {
+    background-color: #ffd9ec;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+footer {
+  background-color: #ff69b4;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+
+  @media (max-width: 884px) {
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .second-section-footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
