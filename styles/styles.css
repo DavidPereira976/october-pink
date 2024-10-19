@@ -115,7 +115,7 @@ footer {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
 }
 @media (max-width: 884px) {
   footer {
