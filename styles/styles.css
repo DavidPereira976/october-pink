@@ -89,6 +89,14 @@ main .second-section-main {
   align-items: center;
   flex-wrap: wrap;
 }
+main .second-section-main img {
+  width: 400px;
+}
+@media (max-width: 393px) {
+  main .second-section-main img {
+    width: 280px;
+  }
+}
 @media (max-width: 884px) {
   main .second-section-main {
     padding: 20px;

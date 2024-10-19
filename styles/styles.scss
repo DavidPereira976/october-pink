@@ -89,6 +89,14 @@ main {
     align-items: center;
     flex-wrap: wrap;
 
+    img {
+      width: 400px;
+
+      @media (max-width: 393px) {
+        width: 280px;
+      }
+    }
+
     @media (max-width: 884px) {
       padding: 20px;
       gap: 40px;
