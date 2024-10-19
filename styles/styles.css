@@ -134,7 +134,7 @@ footer {
 @media (max-width: 393px) {
   footer p {
     text-align: center;
-    width: 200px;
+    width: 150px;
   }
 }
 footer .second-section-footer {
