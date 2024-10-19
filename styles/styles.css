@@ -75,7 +75,7 @@ main .first-section-main p {
   width: 500px;
   font-size: 22px;
 }
-@media (max-width: 360px) {
+@media (max-width: 383px) {
   main img {
     width: 280px;
   }
